@@ -58,6 +58,14 @@ public class TrainSystemTest {
 		controller.followSpeed();
 		Assert.assertEquals(0, controller.getReferenceSpeed());
 	}
+	@Test
+	public void IsCollectionEmpty() {
+		user.overrideJoystickPosition(3);
+		controller.followSpeed();
+		user.overrideJoystickPosition(-4);
+		controller.followSpeed();
+		Assert.assertNotEquals(0, controller.getTachoSize());
+	}
 
 	
 }
