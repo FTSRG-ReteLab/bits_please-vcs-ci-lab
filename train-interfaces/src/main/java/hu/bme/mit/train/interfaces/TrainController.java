@@ -4,7 +4,7 @@ public interface TrainController {
 
 	void followSpeed();
 
-	int getReferenceSpeed();
+	int getRxxxxxxeferenceSpeed();
 
 	void setSpeedLimit(int speedLimit);
 
