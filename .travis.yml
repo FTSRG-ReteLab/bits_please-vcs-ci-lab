@@ -1,3 +1,7 @@
 language: java
 
-install: ./cica.sh
+before_install:
+  - return 1
+
+install:
+  - ./cica.sh
