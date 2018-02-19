@@ -1,4 +1,4 @@
-# verification-lab
+# verification-lab-B
 
 This is a sample application for the verification laboratory.
 
