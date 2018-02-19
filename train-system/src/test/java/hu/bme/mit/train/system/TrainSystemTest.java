@@ -54,7 +54,7 @@ public class TrainSystemTest {
 	public void OverridingJoystickPositionToNegative_SetsReferenceSpeedToZero2() {
 		user.overrideJoystickPosition(3);
 		controller.followSpeed();
-		user.overrideJoystickPosition(-2);
+		user.overrideJoystickPosition(-4);
 		controller.followSpeed();
 		Assert.assertEquals(0, controller.getReferenceSpeed());
 	}
