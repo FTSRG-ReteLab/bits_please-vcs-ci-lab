@@ -24,9 +24,5 @@ public class TrainSystem {
 	public TrainUser getUser() {
 		return user;
 	}
-	
-	public void valami(){
-		controller.follow
-	}
 
 }
