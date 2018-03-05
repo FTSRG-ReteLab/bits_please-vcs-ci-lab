@@ -3,6 +3,7 @@ package hu.bme.mit.train.controller;
 import java.util.Calendar;
 import java.util.Timer;
 import java.util.TimerTask;
+// Nem így kell ejnye-bejnye
 
 import hu.bme.mit.train.interfaces.TrainController;
 import hu.bme.mit.train.tachograph.Tachograph;
