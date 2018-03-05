@@ -1,7 +1,7 @@
 package hu.bme.mit.train.controller;
 
 import java.util.Calendar;
-// Nem így kell ejnye-bejnye
+// Nem igy kell ejnye-bejnye
 
 import hu.bme.mit.train.interfaces.TrainController;
 import hu.bme.mit.train.tachograph.Tachograph;
