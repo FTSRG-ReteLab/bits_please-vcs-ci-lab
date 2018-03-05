@@ -1,6 +1,7 @@
 package hu.bme.mit.train.controller;
 
 import java.util.Calendar;
+// Nem így kell ejnye-bejnye
 
 import hu.bme.mit.train.interfaces.TrainController;
 import hu.bme.mit.train.tachograph.Tachograph;
@@ -57,6 +58,11 @@ public class TrainControllerImpl implements TrainController {
 	@Override
 	public void setJoystickPosition(int joystickPosition) {
 		this.step = joystickPosition;
+		int t=0;
+		while (t<10000){
+			followSpeed();
+			t++;
+		}
 	}
 
 }
