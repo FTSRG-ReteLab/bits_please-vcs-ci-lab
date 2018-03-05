@@ -26,7 +26,7 @@ public class TrainSystem {
 	}
 	
 	public void valami(){
-		
+		controller.follow
 	}
 
 }
